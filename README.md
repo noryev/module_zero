@@ -2,7 +2,7 @@
 
 This is a repo dedicated to author a Lilypad module built with Stability-AI's Stable Video Diffusion
 
-(replicate.com)[https://replicate.com/stability-ai/stable-video-diffusion]
+[replicate.com](https://replicate.com/stability-ai/stable-video-diffusion)
 
 Create a file called `lilypad_module.json.tmpl`
 
