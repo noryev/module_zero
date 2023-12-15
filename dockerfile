@@ -6,7 +6,7 @@ WORKDIR /app
 
 # Install Python dependencies including Replicate client
 COPY requirements.txt .
-RUN pip install --no-cache-dir -r requirements.txt && \
+RUN pip install replicate --no-cache-dir -r requirements.txt && \
     pip install replicate
 
 # Set the Replicate API token as an environment variable (Replace with your actual token)
