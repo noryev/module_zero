@@ -10,7 +10,7 @@ RUN pip install --no-cache-dir -r requirements.txt && \
     pip install replicate
 
 # Set the Replicate API token as an environment variable (Replace with your actual token)
-ENV REPLICATE_API_TOKEN=r8_HHg0Jp64KGtt9vc3gKfaxo6L2bbiThy1K2aSJ
+ENV REPLICATE_API_TOKEN=
 
 # Copy the Stable Diffusion model and other necessary files
 COPY . /app
