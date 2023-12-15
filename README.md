@@ -2,6 +2,8 @@
 
 This is a repo dedicated to author a Lilypad module built with Stability-AI's Stable Video Diffusion[replicate.com](https://replicate.com/stability-ai/stable-video-diffusion)
 
+Firstly create a docker image with your configuration! Firstly I need to create a Dockerfile that specifies the enviroment in which my module will run! 
+
 Create a file called `lilypad_module.json.tmpl`
 
 This is a json template with Go text/template style `{{.Message}}` sections which will be replaced by Lilypad with valid JSON strings which are passed as input to modules.
